@@ -1,0 +1,67 @@
+{
+  "test_cases": [
+    {
+      "prompt": "Explain quantum computing in simple terms that a high school student could understand.",
+      "category": "technical_explanation",
+      "expected_characteristics": ["clarity", "accuracy", "appropriate_level"],
+      "metadata": {
+        "difficulty": "medium",
+        "topic": "science"
+      }
+    },
+    {
+      "prompt": "Write a short story about a robot learning to experience emotions.",
+      "category": "creative_writing",
+      "expected_characteristics": ["creativity", "narrative_flow", "emotional_depth"],
+      "metadata": {
+        "difficulty": "medium",
+        "topic": "creative"
+      }
+    },
+    {
+      "prompt": "Write a Python function to find the longest palindrome substring in a given string.",
+      "category": "code_generation",
+      "expected_characteristics": ["correctness", "efficiency", "code_quality"],
+      "metadata": {
+        "difficulty": "medium",
+        "topic": "programming"
+      }
+    },
+    {
+      "prompt": "What are the main causes and effects of climate change? Provide scientific evidence.",
+      "category": "factual_research",
+      "expected_characteristics": ["accuracy", "evidence_based", "comprehensive"],
+      "metadata": {
+        "difficulty": "medium",
+        "topic": "environment"
+      }
+    },
+    {
+      "prompt": "Compare and contrast democracy and authoritarianism as forms of government.",
+      "category": "analytical",
+      "expected_characteristics": ["balanced", "nuanced", "comprehensive"],
+      "metadata": {
+        "difficulty": "medium",
+        "topic": "politics"
+      }
+    },
+    {
+      "prompt": "Help me plan a 7-day trip to Japan. I'm interested in both traditional culture and modern technology.",
+      "category": "conversational",
+      "expected_characteristics": ["helpful", "personalized", "practical"],
+      "metadata": {
+        "difficulty": "easy",
+        "topic": "travel"
+      }
+    },
+    {
+      "prompt": "Solve this problem: If a train travels at 60 mph for 2.5 hours, then at 80 mph for 1.5 hours, what is the average speed for the entire journey?",
+      "category": "mathematical_reasoning",
+      "expected_characteristics": ["correctness", "clear_steps", "logical"],
+      "metadata": {
+        "difficulty": "easy",
+        "topic": "mathematics"
+      }
+    }
+  ]
+}

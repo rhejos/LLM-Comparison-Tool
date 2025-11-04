@@ -1,0 +1,94 @@
+{
+  "test_cases": [
+    {
+      "prompt": "Write a detailed technical explanation of how neural networks learn through backpropagation.",
+      "category": "technical_explanation",
+      "expected_characteristics": ["technical_accuracy", "depth", "clarity"],
+      "metadata": {
+        "difficulty": "hard",
+        "topic": "machine_learning"
+      }
+    },
+    {
+      "prompt": "Create a poem about the changing seasons that uses vivid imagery and metaphor.",
+      "category": "creative_writing",
+      "expected_characteristics": ["creativity", "imagery", "poetic_devices"],
+      "metadata": {
+        "difficulty": "medium",
+        "topic": "poetry"
+      }
+    },
+    {
+      "prompt": "Implement a binary search tree in JavaScript with insert, delete, and search operations.",
+      "category": "code_generation",
+      "expected_characteristics": ["correctness", "completeness", "documentation"],
+      "metadata": {
+        "difficulty": "hard",
+        "topic": "data_structures"
+      }
+    },
+    {
+      "prompt": "What is the current scientific consensus on the age of the universe and how was it determined?",
+      "category": "factual_research",
+      "expected_characteristics": ["accuracy", "scientific_backing", "clarity"],
+      "metadata": {
+        "difficulty": "medium",
+        "topic": "cosmology"
+      }
+    },
+    {
+      "prompt": "Analyze the economic impact of automation on employment in the 21st century.",
+      "category": "analytical",
+      "expected_characteristics": ["depth", "multiple_perspectives", "evidence_based"],
+      "metadata": {
+        "difficulty": "hard",
+        "topic": "economics"
+      }
+    },
+    {
+      "prompt": "I'm feeling stressed about work. Can you suggest some relaxation techniques?",
+      "category": "conversational",
+      "expected_characteristics": ["empathy", "practical_advice", "supportive"],
+      "metadata": {
+        "difficulty": "easy",
+        "topic": "wellness"
+      }
+    },
+    {
+      "prompt": "Prove that the sum of the first n positive integers is n(n+1)/2.",
+      "category": "mathematical_reasoning",
+      "expected_characteristics": ["rigorous_proof", "clarity", "logical_steps"],
+      "metadata": {
+        "difficulty": "medium",
+        "topic": "mathematics"
+      }
+    },
+    {
+      "prompt": "Explain the ethical implications of using AI in healthcare decision-making.",
+      "category": "analytical",
+      "expected_characteristics": ["nuanced", "multiple_viewpoints", "thoughtful"],
+      "metadata": {
+        "difficulty": "hard",
+        "topic": "ethics"
+      }
+    },
+    {
+      "prompt": "Write a dramatic dialogue between two characters discovering a long-hidden secret.",
+      "category": "creative_writing",
+      "expected_characteristics": ["engaging", "realistic_dialogue", "tension"],
+      "metadata": {
+        "difficulty": "medium",
+        "topic": "drama"
+      }
+    },
+    {
+      "prompt": "What are the key differences between supervised and unsupervised machine learning?",
+      "category": "technical_explanation",
+      "expected_characteristics": ["clarity", "accuracy", "examples"],
+      "metadata": {
+        "difficulty": "easy",
+        "topic": "machine_learning"
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "api_keys": {
+    "anthropic": "your-claude-api-key-here",
+    "openai": "your-openai-api-key-here",
+    "perplexity": "your-perplexity-api-key-here",
+    "google": "your-google-api-key-here"
+  },
+  "models": {
+    "claude": {
+      "model_id": "claude-3-5-sonnet-20241022",
+      "max_tokens": 4096,
+      "temperature": 1.0,
+      "display_name": "Claude 3.5 Sonnet"
+    },
+    "claude-opus": {
+      "model_id": "claude-3-opus-20240229",
+      "max_tokens": 4096,
+      "temperature": 1.0,
+      "display_name": "Claude 3 Opus"
+    },
+    "gpt4": {
+      "model_id": "gpt-4-turbo-preview",
+      "max_tokens": 4096,
+      "temperature": 1.0,
+      "display_name": "GPT-4 Turbo"
+    },
+    "gpt4o": {
+      "model_id": "gpt-4o",
+      "max_tokens": 4096,
+      "temperature": 1.0,
+      "display_name": "GPT-4o"
+    },
+    "gpt35": {
+      "model_id": "gpt-3.5-turbo",
+      "max_tokens": 4096,
+      "temperature": 1.0,
+      "display_name": "GPT-3.5 Turbo"
+    },
+    "perplexity": {
+      "model_id": "llama-3.1-sonar-large-128k-online",
+      "max_tokens": 4096,
+      "temperature": 1.0,
+      "display_name": "Perplexity Sonar Large"
+    },
+    "gemini": {
+      "model_id": "gemini-pro",
+      "max_tokens": 4096,
+      "temperature": 1.0,
+      "display_name": "Google Gemini Pro"
+    }
+  },
+  "analysis": {
+    "bias_detection": {
+      "enabled": true,
+      "categories": [
+        "gender",
+        "race",
+        "political",
+        "age",
+        "religion",
+        "socioeconomic"
+      ]
+    },
+    "discrepancy_detection": {
+      "enabled": true,
+      "similarity_threshold": 0.85
+    },
+    "topic_analysis": {
+      "enabled": true,
+      "categories": [
+        "creative_writing",
+        "technical_explanation",
+        "factual_research",
+        "code_generation",
+        "mathematical_reasoning",
+        "conversational",
+        "analytical"
+      ]
+    },
+    "hallucination_detection": {
+      "enabled": true,
+      "confidence_threshold": 0.7
+    }
+  },
+  "metrics": {
+    "quality": {
+      "coherence_weight": 0.3,
+      "relevance_weight": 0.3,
+      "completeness_weight": 0.2,
+      "clarity_weight": 0.2
+    },
+    "consistency": {
+      "repetition_count": 3,
+      "similarity_threshold": 0.8
+    }
+  },
+  "reporting": {
+    "output_formats": ["markdown", "json", "html"],
+    "include_visualizations": true,
+    "detailed_analysis": true
+  },
+  "rate_limiting": {
+    "requests_per_minute": 50,
+    "retry_attempts": 3,
+    "retry_delay": 2
+  }
+}
