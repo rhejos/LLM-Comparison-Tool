@@ -19,8 +19,8 @@
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/LLM-as-a-judge.git
-cd LLM-as-a-judge
+git clone https://github.com/yourusername/LLM-Comparison-Tool.git
+cd LLM-Comparison-Tool
 ```
 
 2. **Create a virtual environment (recommended):**
@@ -422,7 +422,7 @@ python src/main.py batch \
 ## Support
 
 For issues, questions, or contributions:
-- GitHub Issues: https://github.com/yourusername/LLM-as-a-judge/issues
+- GitHub Issues: https://github.com/yourusername/LLM-Comparison-Tool/issues
 - Documentation: See README.md
 
 ## Next Steps
