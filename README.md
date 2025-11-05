@@ -1,4 +1,4 @@
-# LLM Comparison Tool (LLM-as-a-Judge)
+# LLM Comparison Tool 
 
 A comprehensive tool for comparing different Large Language Models (LLMs) with detailed metrics, bias detection, and discrepancy analysis.
 
