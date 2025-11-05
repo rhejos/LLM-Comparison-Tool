@@ -37,8 +37,8 @@ A comprehensive tool for comparing different Large Language Models (LLMs) with d
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/LLM-as-a-judge.git
-cd LLM-as-a-judge
+git clone https://github.com/yourusername/LLM-Comparison-Tool.git
+cd LLM-Comparison-Tool
 
 # Install dependencies
 pip install -r requirements.txt
